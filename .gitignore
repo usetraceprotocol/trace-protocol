@@ -93,3 +93,4 @@ ehthumbs.db
 .cache/
 tmp/
 temp/
+coverage/

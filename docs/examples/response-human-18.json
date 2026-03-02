@@ -1,0 +1,14 @@
+{
+  "address": "0xa4b2ac2e6015a98b91ccf7f8ca2464f5bedaba80",
+  "classification": "HUMAN",
+  "confidence": 0.18,
+  "features": {
+    "txFrequencyEntropy": 3.2,
+    "responseLatencyP50": 1.1
+  },
+  "attestation": {
+    "account": "0x4e33a17c591d0991bbac5dcc02830b801392498e",
+    "blockNumber": 298000000
+  },
+  "timestamp": "2026-04-09T12:00:00Z"
+}

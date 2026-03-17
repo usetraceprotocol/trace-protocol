@@ -97,3 +97,4 @@ coverage/
 .env.local
 .env.*.local
 *.tsbuildinfo
+.turbo/

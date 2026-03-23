@@ -1,0 +1,14 @@
+{
+  "agent": "0x3f5bec35c4daadbe6ce01292247f6bd1ccc32ac5",
+  "classification": "HYBRID",
+  "confidence": 0.34,
+  "features": {
+    "txFrequencyEntropy": 2.1,
+    "responseLatencyP50": 1.7,
+    "instructionDiversity": 0.4,
+    "decisionVariance": 0.26,
+    "timeOfDayEntropy": 1.52
+  },
+  "blockNumber": 290400000,
+  "timestamp": "2026-04-05T12:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "agent": "0x1fb9181ee2343caf4c090e350727edf3afca0d95",
+  "classification": "AUTONOMOUS",
+  "confidence": 0.64,
+  "features": {
+    "txFrequencyEntropy": 2.85,
+    "responseLatencyP50": 3.2,
+    "instructionDiversity": 0.65,
+    "decisionVariance": 0.46,
+    "timeOfDayEntropy": 2.17
+  },
+  "blockNumber": 290900000,
+  "timestamp": "2026-04-09T12:00:00Z"
+}

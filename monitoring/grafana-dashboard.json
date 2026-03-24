@@ -1,0 +1,1 @@
+{"dashboard": {"title": "Trace Protocol", "panels": [{"title": "Verdicts/min", "type": "graph"}, {"title": "Classifier latency", "type": "gauge"}, {"title": "API requests", "type": "stat"}]}}

@@ -102,3 +102,4 @@ coverage/
 .idea/
 *.log
 .DS_Store
+lerna-debug.log*

@@ -103,3 +103,4 @@ coverage/
 *.log
 .DS_Store
 lerna-debug.log*
+npm-debug.log*

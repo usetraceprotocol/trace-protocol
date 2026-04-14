@@ -1,0 +1,28 @@
+name: Deploy Sepolia
+on:
+  workflow_dispatch:
+    inputs:
+      verify:
+        description: "Verify on Etherscan after deploy"
+        required: false
+        default: "true"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: contracts/trace-attestation
+    steps:
+      - uses: actions/checkout@v4
+      - uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+      - run: forge build --sizes
+      - run: forge test -vv
+      - name: Deploy TraceAttestation to Sepolia
+        run: |
+          forge create src/TraceAttestation.sol:TraceAttestation \
+            --rpc-url ${{ secrets.SEPOLIA_RPC_URL }} \
+            --private-key ${{ secrets.DEPLOYER_PRIVATE_KEY }} \
+            --constructor-args ${{ secrets.ATTESTER_ADDRESS }}

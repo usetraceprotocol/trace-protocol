@@ -1,4 +1,5 @@
 version: 2
+# maintained-rev-1
 
 updates:
   - package-ecosystem: npm

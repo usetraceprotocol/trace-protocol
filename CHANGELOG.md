@@ -41,7 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Classifier package with ONNX runtime integration
 - Verdict engine with weighted scoring across signal categories
-- Initial SDK release (@trace-protocol/sdk v0.2.0)
+- Initial SDK release (trace-protocol-sdk v0.2.0)
 - TypeScript examples for querying agent verdicts
 
 ### Changed

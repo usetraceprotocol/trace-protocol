@@ -5,7 +5,7 @@
  *   npx tsx examples/query-agent.ts <agent-address>
  */
 
-import { TraceClient } from "@trace-protocol/sdk";
+import { TraceClient } from "trace-protocol-sdk";
 
 async function main() {
   const address = process.argv[2];

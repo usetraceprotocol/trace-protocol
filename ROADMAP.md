@@ -17,7 +17,7 @@ an AI agent verifier on Ethereum that classifies agents as AUTONOMOUS, HYBRID, o
 - [x] ONNX model integration for agent classification
 - [x] Feature extraction pipeline (32 behavioral features)
 - [x] Verdict engine with weighted scoring
-- [x] SDK release (@trace-protocol/sdk)
+- [x] SDK release (trace-protocol-sdk)
 - [x] TypeScript and Python query examples
 - [x] Turborepo pipeline optimization for parallel builds
 

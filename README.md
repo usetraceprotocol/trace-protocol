@@ -166,7 +166,7 @@ trace-protocol/
 | **Verdict engine** | Aggregates signals into AUTONOMOUS / HYBRID / HUMAN with calibrated confidence | ✅ live |
 | **On-chain attestation** | Publishes every verdict to a Ethereum PDA. Immutable. Anyone can read it. | ✅ live |
 | **REST API** | Query any agent's verdict by program ID or wallet address | ✅ live |
-| **TypeScript SDK** | `@trace-protocol/sdk` for integrating verdicts into your own app | ✅ live |
+| **TypeScript SDK** | `trace-protocol-sdk` for integrating verdicts into your own app | ✅ live |
 | **Signal feed** | Real-time WebSocket feed of new verdicts as they land | ✅ live |
 | **Batch query** | Scan up to 100 agents in one API call | ✅ live |
 | **Historical verdicts** | Full verdict history per agent, not just the latest | ✅ live |

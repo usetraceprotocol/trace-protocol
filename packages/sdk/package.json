@@ -1,10 +1,22 @@
 {
-  "name": "@trace-protocol/sdk",
+  "name": "trace-protocol-sdk",
   "version": "0.4.0",
-  "description": "Client SDK for querying Trace Protocol agent verdicts",
+  "description": "Client SDK for querying Trace Protocol agent verdicts on Ethereum",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": ["dist", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/traceprotocolscan/trace-protocol.git",
+    "directory": "packages/sdk"
+  },
+  "homepage": "https://github.com/traceprotocolscan/trace-protocol#readme",
+  "bugs": {
+    "url": "https://github.com/traceprotocolscan/trace-protocol/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",

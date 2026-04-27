@@ -1,15 +1,21 @@
 <div align="center">
 
 ```
-                              ██╗    ██╗ █████╗ ██████╗ ██████╗
-                              ██║    ██║██╔══██╗██╔══██╗██╔══██╗
-                              ██║ █╗ ██║███████║██████╔╝██████╔╝
-                              ██║███╗██║██╔══██║██╔══██╗██╔═══╝
-                           ╚███╔███╔╝██║  ██║██║  ██║██║
-                            ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
+              ████████╗██████╗  █████╗  ██████╗███████╗
+              ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██╔════╝
+                 ██║   ██████╔╝███████║██║     █████╗
+                 ██║   ██╔══██╗██╔══██║██║     ██╔══╝
+                 ██║   ██║  ██║██║  ██║╚██████╗███████╗
+                 ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝
+        ██████╗ ██████╗  ██████╗ ████████╗ ██████╗  ██████╗ ██████╗ ██╗
+        ██╔══██╗██╔══██╗██╔═══██╗╚══██╔══╝██╔═══██╗██╔════╝██╔═══██╗██║
+        ██████╔╝██████╔╝██║   ██║   ██║   ██║   ██║██║     ██║   ██║██║
+        ██╔═══╝ ██╔══██╗██║   ██║   ██║   ██║   ██║██║     ██║   ██║██║
+        ██║     ██║  ██║╚██████╔╝   ██║   ╚██████╔╝╚██████╗╚██████╔╝███████╗
+        ╚═╝     ╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝
 ```
 
-### protocol
+### trace protocol
 
 **fake agents have no pulse.**
 
@@ -19,7 +25,7 @@ on-chain attestations with the evidence attached.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/typescript-5.x-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Rust](https://img.shields.io/badge/rust-1.75+-CE412B.svg?logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![Solidity](https://img.shields.io/badge/solidity-0.8.24-363636.svg?logo=solidity&logoColor=white)](https://docs.soliditylang.org/)
 [![Python](https://img.shields.io/badge/python-3.11+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Ethereum](https://img.shields.io/badge/Ethereum-native-14F195.svg?logo=ethereum&logoColor=black)](#architecture)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)]()

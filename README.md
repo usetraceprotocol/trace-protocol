@@ -32,7 +32,7 @@ on-chain attestations with the evidence attached.
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![X](https://img.shields.io/badge/follow-%40TraceProtocol__-1DA1F2.svg?logo=x&logoColor=white)](https://x.com/TraceProtocol_)
 
-[![npm](https://img.shields.io/npm/v/trace-protocol-sdk?color=7DDCB5&label=sdk&logo=npm)](https://www.npmjs.com/package/trace-protocol-sdk)
+[![sdk release](https://img.shields.io/github/v/release/traceprotocolscan/trace-protocol?label=sdk&color=7DDCB5&logo=github)](https://github.com/traceprotocolscan/trace-protocol/releases/latest)
 [![Agents scanned](https://img.shields.io/badge/agents%20scanned-4.2k+-7DDCB5.svg)]()
 [![Detection rate](https://img.shields.io/badge/detection%20rate-94%25-7DDCB5.svg)]()
 [![Verdicts on-chain](https://img.shields.io/badge/verdicts%20on--chain-1.8k-7DDCB5.svg)]()
@@ -166,7 +166,7 @@ trace-protocol/
 | **Verdict engine** | Aggregates signals into AUTONOMOUS / HYBRID / HUMAN with calibrated confidence | ✅ live |
 | **On-chain attestation** | Publishes every verdict to a Ethereum PDA. Immutable. Anyone can read it. | ✅ live |
 | **REST API** | Query any agent's verdict by program ID or wallet address | ✅ live |
-| **TypeScript SDK** | `trace-protocol-sdk` for integrating verdicts into your own app | ✅ live |
+| **TypeScript SDK** | `trace-protocol-sdk` for integrating verdicts into your own app | 🛠️ workspace · npm pending |
 | **Signal feed** | Real-time WebSocket feed of new verdicts as they land | ✅ live |
 | **Batch query** | Scan up to 100 agents in one API call | ✅ live |
 | **Historical verdicts** | Full verdict history per agent, not just the latest | ✅ live |
@@ -211,8 +211,16 @@ curl -s https://api.traceprotocol.tech/v1/verdict/AgentContractAddress1111111111
 
 ### TypeScript SDK
 
+The SDK ships from the monorepo today. npm publish is gated until the
+`trace-protocol` org is set up — track [#sdk-publish](https://github.com/traceprotocolscan/trace-protocol/issues)
+or grab the v0.4.0 source directly:
+
 ```bash
-npm install trace-protocol-sdk
+git clone https://github.com/traceprotocolscan/trace-protocol.git
+cd trace-protocol/packages/sdk
+pnpm install
+pnpm build
+# pnpm link --global   # optional, expose as `trace-protocol-sdk` locally
 ```
 
 ```typescript

@@ -31,6 +31,7 @@ on-chain attestations with the evidence attached.
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![X](https://img.shields.io/badge/follow-%40TraceProtocol__-1DA1F2.svg?logo=x&logoColor=white)](https://x.com/TraceProtocol_)
+[![Telegram](https://img.shields.io/badge/telegram-usetraceprotocol-26A5E4.svg?logo=telegram&logoColor=white)](https://t.me/usetraceprotocol)
 
 [![sdk release](https://img.shields.io/github/v/release/traceprotocolscan/trace-protocol?label=sdk&color=7DDCB5&logo=github)](https://github.com/traceprotocolscan/trace-protocol/releases/latest)
 [![Agents scanned](https://img.shields.io/badge/agents%20scanned-4.2k+-7DDCB5.svg)]()
@@ -337,6 +338,6 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full guide.
 
 **Trace Protocol** · fake agents have no pulse
 
-[github](https://github.com/traceprotocolscan/trace-protocol) · [x](https://x.com/TraceProtocol_)
+[github](https://github.com/usetraceprotocol/trace-protocol) · [x](https://x.com/TraceProtocol_) · [telegram](https://t.me/usetraceprotocol)
 
 </div>

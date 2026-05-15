@@ -135,7 +135,8 @@ trace-protocol/
 │   └── sdk/                # [TS] client SDK for consumers
 │
 ├── contracts/
-│   └── trace-attestation/   # [Rust/Foundry] on-chain verdict storage program
+│   ├── trace-attestation/   # [Solidity/Foundry] on-chain verdict storage program
+│   └── trace-hook/          # [Solidity/Foundry] Uniswap v4 hook: fingerprint + fee → forensics
 │
 ├── models/
 │   ├── training/           # [Python] ML training pipeline + dataset

@@ -19,21 +19,24 @@
 
 **fake agents have no pulse.**
 
-autonomous AI agent verifier on Ethereum. scans every agent deployment,
-classifies behavior as `AUTONOMOUS` · `HYBRID` · `HUMAN`, and publishes
-on-chain attestations with the evidence attached.
+autonomous AI agent verifier on **Base + Ethereum**. powered by a Uniswap v4
+hook that fingerprints every swap caller, classifies behavior as `AUTONOMOUS`
+· `HYBRID` · `HUMAN`, and publishes on-chain attestations with the evidence
+attached. one hook. two chains. every trade.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/typescript-5.x-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Solidity](https://img.shields.io/badge/solidity-0.8.24-363636.svg?logo=solidity&logoColor=white)](https://docs.soliditylang.org/)
 [![Python](https://img.shields.io/badge/python-3.11+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![Ethereum](https://img.shields.io/badge/Ethereum-native-14F195.svg?logo=ethereum&logoColor=black)](#architecture)
+[![Base](https://img.shields.io/badge/Base-mainnet-0052FF.svg?logo=coinbase&logoColor=white)](#architecture)
+[![Ethereum](https://img.shields.io/badge/Ethereum-native-627EEA.svg?logo=ethereum&logoColor=white)](#architecture)
+[![Uniswap v4](https://img.shields.io/badge/uniswap-v4_hook-FF007A.svg?logo=uniswap&logoColor=white)](#architecture)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![X](https://img.shields.io/badge/follow-%40TraceProtocol__-1DA1F2.svg?logo=x&logoColor=white)](https://x.com/TraceProtocol_)
 [![Telegram](https://img.shields.io/badge/telegram-usetraceprotocol-26A5E4.svg?logo=telegram&logoColor=white)](https://t.me/usetraceprotocol)
 
-[![sdk release](https://img.shields.io/github/v/release/traceprotocolscan/trace-protocol?label=sdk&color=7DDCB5&logo=github)](https://github.com/traceprotocolscan/trace-protocol/releases/latest)
+[![sdk release](https://img.shields.io/github/v/release/usetraceprotocol/trace-protocol?label=sdk&color=7DDCB5&logo=github)](https://github.com/usetraceprotocol/trace-protocol/releases/latest)
 [![Agents scanned](https://img.shields.io/badge/agents%20scanned-4.2k+-7DDCB5.svg)]()
 [![Detection rate](https://img.shields.io/badge/detection%20rate-94%25-7DDCB5.svg)]()
 [![Verdicts on-chain](https://img.shields.io/badge/verdicts%20on--chain-1.8k-7DDCB5.svg)]()
@@ -213,11 +216,11 @@ curl -s https://api.traceprotocol.tech/v1/verdict/AgentContractAddress1111111111
 ### TypeScript SDK
 
 The SDK ships from the monorepo today. npm publish is gated until the
-`trace-protocol` org is set up — track [#sdk-publish](https://github.com/traceprotocolscan/trace-protocol/issues)
+`trace-protocol` org is set up — track [#sdk-publish](https://github.com/usetraceprotocol/trace-protocol/issues)
 or grab the v0.4.0 source directly:
 
 ```bash
-git clone https://github.com/traceprotocolscan/trace-protocol.git
+git clone https://github.com/usetraceprotocol/trace-protocol.git
 cd trace-protocol/packages/sdk
 pnpm install
 pnpm build
@@ -309,9 +312,10 @@ wscat -c wss://api.traceprotocol.tech/v1/feed
 | **v0.2** | On-chain attestation program (Foundry) | ✅ |
 | **v0.3** | REST API + TypeScript SDK + signal feed | ✅ |
 | **v0.4** | Confidence calibration + historical verdicts | ✅ |
+| **v0.4.2** | Uniswap v4 hook + **Base support live** + attestation mirroring | ✅ |
 | **v0.5** | Dashboard beta + batch query | 🛠️ |
 | **v0.6** | Webhook alerts + verdict change notifications | ⏳ |
-| **v0.7** | Multi-chain expansion (Base, Ethereum agent ecosystems) | ⏳ |
+| **v0.7** | Arbitrum + Optimism expansion | ⏳ |
 | **v1.0** | Public attestation explorer + governance | ⏳ |
 
 ## Contributing
